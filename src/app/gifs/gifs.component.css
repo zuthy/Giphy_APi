@@ -1,0 +1,26 @@
+.gifs{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 1000px;
+    margin: 0 auto;
+}
+.gif img{
+    max-width: 250px;
+    height: 250px;
+}
+*{
+    margin: 2px;
+}
+.gif-title {
+    color: red;
+}
+.gif-button {
+    color: black;
+    background-color: aliceblue;
+    margin: 0px;
+    border-width: 0px;
+    border-style: outset;
+    border-color: buttonborder;
+    box-shadow: 2px;
+
+}

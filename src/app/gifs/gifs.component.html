@@ -1,0 +1,10 @@
+<div class="gifs">
+    <div class="gif" *ngFor="let gif of gifs">
+        <img [id]="gif.id" [src]="gif.images.downsized.url" alt="Image">
+        <!--
+            <p class="gif-title">{{ gif.title }}</p>
+        -->
+        
+        <Button class="gif-button" id="button" (click)="downloadGif(gif)">Download</Button>
+    </div>
+</div>

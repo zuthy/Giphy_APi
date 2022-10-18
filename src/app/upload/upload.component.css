@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    flex-direction: column;
+ 
+    max-width: 150px;
+    margin: auto auto;
+    text-align: center;
+    font-size: 10px;
+  }
+  label {
+    background-color: rgb(255, 255, 255);
+    border: solid 4px #9999ff;
+    border-radius: 4px;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 6px 7px;
+    cursor: pointer;
+    width: 100px;
+    height: 15px;
+  }

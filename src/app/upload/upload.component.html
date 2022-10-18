@@ -1,0 +1,14 @@
+
+<div class="container">
+    <h2>Upload your Gif</h2>
+  <img [src]="url" title="Profile Picture" height="150px" width="150px" />
+  <input
+    type="file"
+    id="img"
+    style="display:none"
+    accept="image/*"
+    (change)="onSelect($event)"
+  />
+  <label for="img">Upload Gif</label>
+</div>
+
